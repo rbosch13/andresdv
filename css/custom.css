@@ -1,0 +1,48 @@
+/* ------------- */
+
+
+/* Custom preset */
+
+
+/* ------------- */
+
+.panel,
+.panel a,
+.da-thumbs article a div i,
+.profile .label,
+.colorbg,
+header#notext a:hover,
+.da-thumbs article a div,
+#filter a.active,
+#filter a.active:hover {
+    color: white
+}
+.main,
+#filter a,
+.main .contact a,
+.main .contact i {
+    color: #333
+}
+.panel a:hover,
+.main a,
+.main a:hover,
+#filter a:hover,
+.main i,
+.tweet a,
+.colorfont {
+    color: #8A2BE2
+}
+.panel header a {
+    color: black
+}
+.main .wrap,
+.gmap {
+    background: #eee
+}
+.profile .label,
+.colorbg,
+header#notext a:hover,
+.da-thumbs article a div,
+.nav-pills > li > a.active {
+    background: #8A2BE2
+}
