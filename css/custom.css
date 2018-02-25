@@ -46,3 +46,16 @@ header#notext a:hover,
 .nav-pills > li > a.active {
     background: #8A2BE2
 }
+
+
+/*images with the same width*/
+
+.crop {
+    height: 160px;
+    /*width: 300px;*/
+    overflow: hidden;
+}
+.crop img {
+    height: auto;
+    width: 100%;
+}
