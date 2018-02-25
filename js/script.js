@@ -72,6 +72,12 @@ function filter() {
         return false;
     });
 
+    // Filter Default Videos to .legit as per request
+    $container.isotope({
+        itemSelector: '.works',
+        filter: '.legit'
+    });
+
     // Copy categories to item classes
     $filter.find('a').click(function () {
         var currentOption = $(this).attr('data-filter');
